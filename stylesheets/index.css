@@ -2,6 +2,10 @@
     display:block;
 }
 
+.container {
+    height: 2000px;
+}
+
 #contact {
   float: right;
   padding: 10px;
@@ -70,11 +74,37 @@ a:hover {
   font-size: 45px;
   width: 100%;
   text-align: center;
+  margin-bottom: 0px;
 
 }
 .row p {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 20px;
-
+  width: 50%;
 }
 
+.row #p1  {
+    float: left;
+    margin: 20px;
+}
+
+.row #p3  {
+    float: left;
+    margin: 20px;
+}
+
+.row #p5  {
+    float: left;
+    margin: 20px;
+}
+
+.row #p2 {
+    float: right;
+    margin: 20px;
+}
+
+.row #p4 {
+    float: right;
+    margin: 20px;
+}
+.hid { opacity: 0; }
