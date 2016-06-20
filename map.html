@@ -2,9 +2,38 @@
 <html>
 <head>
     <title>Location and Map</title>
-    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://embedgooglemaps.com">                                   embed google maps                           </a></small></div><div><small><a href="https:/disclaimergenerator.net">disclaimer example</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(39.0546719,-95.69629199999997),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(39.0546719,-95.69629199999997)});infowindow = new google.maps.InfoWindow({content:'<strong>Ophthalmology PA</strong><br>1616 SW 8th Ave, Topeka, KS<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./stylesheets/map.css">
+    <link rel="stylesheet" type="text/css" href="./fonts/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro|Roboto+Condensed|Open+Sans|Slabo+27px' rel='stylesheet' type='text/css'>
+    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+    <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+    <script type='text/javascript'>
+     function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(39.0546719,-95.69629199999997),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(39.0546719,-95.69629199999997)});infowindow = new google.maps.InfoWindow({content:'<strong>Ophthalmology PA</strong><br>1616 SW 8th Ave, Topeka, KS<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+   </script>
 </head>
 <body>
+<header>
+  <h1>Find us</h1>
+  <p><em>1616 SW 8th Ave,<br> Topeka, KS 66606 <br>785 233 2280</em></p>
+</header>
+<main>
+  <div class="row">
+    <div class="col-lg-12 col-lg-offset-3 col-md-12 col-md-offset-3 col-sm-12">
+  <div style='overflow:hidden;height:440px;width:700px;'>
+  <div id='gmap_canvas' style='height:440px;width:700px;'></div>
+<div>
+  <small><a href="http://embedgooglemaps.com">embed google maps</a></small>
+</div>
+<div>
+  <small><a href="https:/disclaimergenerator.net">disclaimer example</a></small>
+</div>
+  </div>
+    </div>
+  </div>
 
+ </main>
 </body>
 </html>

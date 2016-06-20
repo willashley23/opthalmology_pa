@@ -1,0 +1,24 @@
+body {
+    background-color: #333;
+}
+
+h1 {
+  font-family: 'Slabo 27px', serif;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+p {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+#gmap_canvas {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+}
