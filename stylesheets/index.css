@@ -38,6 +38,7 @@ h2 {
 
 h3 { font-family: 'Slabo 27px', serif; }
 
+/*Navbar styling */
 #navbar {
   background-color: #333;
   border:none;
@@ -59,3 +60,21 @@ li {
 a {
     color: white;
 }
+
+a:hover {
+    color: #FF6961;
+}
+/* End navbar styling */
+
+.row h3 {
+  font-size: 45px;
+  width: 100%;
+  text-align: center;
+
+}
+.row p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+
+}
+
