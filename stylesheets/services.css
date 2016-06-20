@@ -1,0 +1,61 @@
+h1 {
+    font-family: 'Slabo 27px', serif;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+ul {
+    list-style: none;
+
+}
+
+.services {
+    font-family: 'Slabo 27px', serif;
+    font-size: 28px;
+    display: block;
+    margin-bottom: 65px;
+    line-height: 28px;
+}
+
+span {
+    float: right;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 60%;
+    line-height: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-color: #333;
+}
+
+/*Navbar styling */
+#navbar {
+  background-color: #333;
+  border:none;
+  border-radius: 0 !important;
+}
+
+ul {
+  width: 100%;
+}
+
+.nav-item {
+  font-family: 'Slabo 27px', serif;
+  font-size: 22px;
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #FF6961;
+}
+/* End navbar styling */
