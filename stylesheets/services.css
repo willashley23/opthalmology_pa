@@ -17,18 +17,20 @@ ul {
     display: block;
     margin-bottom: 65px;
     line-height: 28px;
+    height: 50px;
 }
 
 span {
     float: right;
-    font-size: 18px;
+    font-size: 15px;
     font-family: 'Roboto Condensed', sans-serif;
     width: 60%;
+    margin-bottom: 5px;
     line-height: 20px;
-    padding-bottom: 15px;
-    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     border-bottom: 1px solid;
-    border-top: 1px solid;
+    
     border-color: #333;
 }
 
