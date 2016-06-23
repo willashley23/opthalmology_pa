@@ -19,6 +19,10 @@
   color: #333;
 }
 
+p > em {
+  color: cadetblue;
+}
+
 .head {
   padding: 30px;
   background: white;
@@ -69,11 +73,11 @@ li {
 }
 
 a {
-  color: white;
+  color: lightblue;
 }
 
 a:hover {
-  color: #FF6961;
+  color: cadetblue;
 }
 /* End navbar styling */
 
@@ -121,5 +125,5 @@ a:hover {
 }
 
 span {
-  color: teal;
+  color: lightblue;
 }
