@@ -51,7 +51,10 @@ p {
   color: black;
 }
 
-h3 { font-family: 'Slabo 27px', serif; }
+h3 { 
+  font-family: 'Slabo 27px', serif; 
+  padding-bottom: 25px;
+}
 
 /*Navbar styling */
 #navbar {
@@ -82,8 +85,8 @@ a:hover {
 /* End navbar styling */
 
 .rby {
-    float: left;
-    margin-right: 15px;
+  float: left;
+  margin-right: 15px;
 }
 
 .row h3 {
@@ -91,38 +94,22 @@ a:hover {
   width: 100%;
   text-align: center;
   margin-bottom: 0px;
-
 }
-.row p {
+
+#story p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  width: 52%;
+}
+
+#doctors p {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 20px;
   width: 50%;
-}
-
-.row #p1  {
   float: left;
-  margin: 20px;
+  display: inline;
 }
 
-.row #p3  {
-  float: left;
-  margin: 20px;
-}
-
-.row #p5  {
-  float: left;
-  margin: 20px;
-}
-
-.row #p2 {
-  float: right;
-  margin: 20px;
-}
-
-.row #p4 {
-  float: right;
-  margin: 20px;
-}
 
 span {
   color: lightblue;
