@@ -2,6 +2,12 @@
   display: block;
 }
 
+.border-line {
+  border-bottom: 1px solid;
+  width: 95% !important;
+  
+}
+
 .container {
   height: 800px;
 }
@@ -31,6 +37,7 @@ p {
   background: white;
 }
 
+
 h1, h2 {
   width: 50%;
   margin: 0px;
@@ -54,7 +61,7 @@ h3 {
 }
 
 h4 {
-  font-size: 45px;
+  font-size: 40px;
   font-family: 'Slabo 27px', serif;
 }
 
@@ -68,7 +75,7 @@ img {
 #navbar {
   background-color: #333;
   border:none;
-  border-radius: 0 !important;
+  border-radius: 1px solid !important;
 }
 
 ul {
