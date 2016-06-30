@@ -19,7 +19,7 @@
 }
 
 p > em {
-  color: lightblue;
+  color: #02ACF1;
 }
 
 p {
@@ -88,7 +88,7 @@ li {
 
 a { color: black; }
 
-a:hover { color: lightblue; }
+a:hover { color: #02ACF1; }
 
 
 /* End navbar styling */
@@ -156,5 +156,5 @@ a:hover { color: lightblue; }
 }
 
 span {
-  color: lightblue;
+  color: #02ACF1;
 }

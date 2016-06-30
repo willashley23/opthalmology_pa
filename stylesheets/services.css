@@ -10,6 +10,12 @@
   color: #333;
 }
 
+.alt-span {
+  color: #02ACF1;
+  font-style: normal;
+
+}
+
 .head {
   padding: 30px;
   background: white;
@@ -70,14 +76,15 @@ span {
     padding-bottom: 10px;
     padding-top: 10px;
     border-bottom: 1px solid;
-    border-color: lightblue;
+    border-color: #02ACF1;
 }
 
 /*Navbar styling */
 #navbar {
-  background-color: #333;
-  border:none;
-  border-radius: 0 !important;
+  background-color: white;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-radius: 0px;
 }
 
 ul {
@@ -93,11 +100,11 @@ ul {
 }
 
 a {
-  color: lightblue;
+  color: #333;
 }
 
 a:hover {
-  color: black;
+  color: #02ACF1;
 }
 /* End navbar styling */
 
