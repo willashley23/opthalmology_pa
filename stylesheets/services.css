@@ -82,8 +82,6 @@ span {
 /*Navbar styling */
 #navbar {
   background-color: white;
-  border-top: 1px solid;
-  border-bottom: 1px solid;
   border-radius: 0px;
 }
 
@@ -97,6 +95,8 @@ ul {
   width: 25%;
   float: left;
   text-align: center;
+  border-left: 1px solid;
+  border-color: #DCDCDC;
 }
 
 a {
@@ -111,6 +111,8 @@ a:hover {
 .rby {
     float: left;
     margin-right: 15px;
+    position: relative;
+    bottom: 35px;
 }
 
 #pa {
