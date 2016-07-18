@@ -110,6 +110,27 @@ li {
 
 }
 
+#col-story ul {
+  margin-top: 10px;
+}
+
+#col-story li {
+  list-style-type: none;
+  border: none;
+  font-size: 30px;
+  float: none;
+  width: 35%;
+}
+
+#col-story .even {
+  float: right;
+  display: inline;
+}
+#col-story .odd {
+  float: left;
+  display: inline;
+}
+
 a { 
   color: #333; 
 }
