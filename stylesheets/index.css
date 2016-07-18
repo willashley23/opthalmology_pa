@@ -2,12 +2,6 @@
   display: block;
 }
 
-/*.bullet {
-  font-size: 40px;
-  vertical-align: middle;
-  float: right;
-}
-*/
 .container {
   height: 800px;
 }
@@ -22,7 +16,17 @@
   font-size: 20px;
   line-height: 19px;
   color: #333;
+}
 
+#col {
+  border-right: 2px solid;
+  border-color: #DCDCDC;
+  margin-left: 0px;
+}
+
+#col-story{
+  float: right;
+  display: block;
 }
 
 p > em {
@@ -132,7 +136,11 @@ a:hover { color: #02ACF1; }
 #story p {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 20px;
-  width: 70%;
+  width: 100%;
+}
+
+#story {
+  display: block;
 }
 
 #doctors {
