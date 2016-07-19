@@ -29,6 +29,10 @@
   display: block;
 }
 
+#col-story ul {
+  padding-top: 110px;
+}
+
 p > em {
   color: black;
 }
