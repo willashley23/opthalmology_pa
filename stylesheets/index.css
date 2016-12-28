@@ -47,6 +47,10 @@ p {
 
 .head {
   padding: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 80%;
+  margin: auto;
   background: white;
 }
 
@@ -173,8 +177,6 @@ a:hover { color: #02ACF1; }
 }
 
 #doctors {
-  border-bottom: 1px solid;
-  border-color: #C0C0C0;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
